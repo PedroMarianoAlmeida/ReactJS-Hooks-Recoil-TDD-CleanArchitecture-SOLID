@@ -12,6 +12,9 @@
      "jsx": "react", // Support JSX in .tsx files
     "rootDir": "src",
     "baseUrl": "src",  
+    "paths": {
+      "@/*": ["*"]
+    },
     "allowJs": true, // Allow JavaScript files to be compiled
     "skipLibCheck": true, // Skip type checking of all declaration files
     "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
